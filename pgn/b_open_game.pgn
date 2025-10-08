@@ -1,0 +1,29 @@
+[Event "Open Game: Ruy Lopez (Morphy Defense)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Morphy Defense (3...a6) is Black's most solid and reliable system against the Ruy Lopez."]
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 *
+
+[Event "Open Game: Italian Game (Two Knights Attack)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "Against the aggressive 4.Ng5, Black must counter-attack in the center with 4...d5!"]
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5! 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 *
+
+[Event "Open Game: Scotch Game (White Error)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "If White plays the passive 4.Bc4?, Black can immediately equalize and challenge White's setup."]
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4? Nf6! 5. O-O Nxe4 6. Re1 d5 *

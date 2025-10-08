@@ -1,0 +1,21 @@
+[Event "Fishing Pole Trap - Sicilian Defense"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Fishing Pole Trap is an aggressive setup for Black, aiming for a quick kingside attack."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. g4 h6 7. Rg1 Nc6 8. Be3 Nxd4? 9. Qxd4! e5 10. Qd2 Nxg4 11. Rxg4 Bxg4 12. Bb5+ Ke7 13. Nd5+ Ke6 14. Bc4 *
+
+[Event "Fishing Pole Trap - Sicilian Defense (White avoids trap)"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "This variation shows how White can avoid the Fishing Pole Trap by playing a more careful move."]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. g4 h6 7. Rg1 Nc6 8. Be3 Be7 *

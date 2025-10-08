@@ -1,0 +1,10 @@
+[Event "Scholar's Mate Training"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "1-0"]
+[OpeningNote "Scholar's Mate is a common beginner's trap. Black must defend f7 carefully."]
+
+1. e4 e5 2. Qh5 Nc6 3. Bc4 Nf6? 4. Qxf7# 1-0

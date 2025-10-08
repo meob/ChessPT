@@ -1,0 +1,29 @@
+[Event "Queen's Gambit Declined: Main Line"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Queen's Gambit Declined is a cornerstone of chess strategy, leading to rich, positional games."]
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 *
+
+[Event "Queen's Gambit Declined: Exchange Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "In the Exchange Variation, Black must play precisely to neutralize White's minority attack plan."]
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 c6 6. Qc2 Be7 *
+
+[Event "Queen's Gambit Declined: Harrwitz Attack (White Error)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The move 4.Bf4? is less precise than Bg5. Black can immediately challenge White's setup with 4...a6! and ...c5."]
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bf4? a6! 5. e3 c5 *

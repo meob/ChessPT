@@ -1,0 +1,29 @@
+[Event "French Defense: Winawer Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Winawer Variation (3...Bb4) is a sharp and challenging response, leading to unbalanced positions."]
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 *
+
+[Event "French Defense: Tarrasch Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "Against the Tarrasch (3.Nd2), Black has several solid ways to develop, such as 3...c5."]
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 exd5 5. Ngf3 Nc6 *
+
+[Event "French Defense: Exchange Variation (White Error)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Exchange variation is often drawish, but if White plays passively like 4.Bd3?, Black can seize the initiative."]
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Bd3? Nc6! 5. c3 Bd6 6. Nf3 Bg4 *

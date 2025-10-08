@@ -1,0 +1,21 @@
+[Event "Legal's Mate Training"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "1-0"]
+[OpeningNote "Legal's Mate is a classic trap where Black falls for a queen sacrifice."]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. Nc3 Bg4 5. h3 Bh5? 6. Nxe5! Bxd1 7. Bxf7+ Ke7 8. Nd5# *
+
+[Event "Legal's Mate Training - Black avoids trap"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "This variation shows how Black can avoid Legal's Mate by playing a more careful move."]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. Nc3 Bg4 5. h3 Bh5 6. Nxe5 Nxe5 7. Qxh5 Nf6 *

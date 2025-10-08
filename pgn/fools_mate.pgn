@@ -1,0 +1,10 @@
+[Event "Fool's Mate Training"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "0-1"]
+[OpeningNote "Fool's Mate is the fastest possible checkmate. White must avoid weakening the kingside."]
+
+1. f3? e5 2. g4?? Qh4# 0-1

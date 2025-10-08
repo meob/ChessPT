@@ -1,0 +1,21 @@
+[Event "Blackburne Shilling Gambit - Main Line"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Blackburne Shilling Gambit is a dubious but tricky opening for Black, aiming to set a trap."]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nd4? 4. Nxe5! Qg5 5. Nxf7 Qxg2 6. Rf1 Qxe4+ 7. Be2 Nf3# *
+
+[Event "Blackburne Shilling Gambit - White avoids trap"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "This variation shows how White can avoid the Blackburne Shilling Gambit trap by playing a more solid move."]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nd4 4. O-O! Nf6 5. Nxe5 Nxe4 6. Re1 Nd6 7. Bb3 Be7 *

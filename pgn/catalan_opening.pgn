@@ -1,0 +1,19 @@
+[Event "Catalan Opening: Open Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Open Catalan involves Black capturing the c4 pawn, leading to sharp and tactical play."]
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Nf3 Be7 6. O-O O-O 7. Qc2 a6 8. a4 *
+
+[Event "Catalan Opening: Closed Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "In the Closed Catalan, Black maintains the central tension, leading to a more strategic and positional game."]
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 O-O 6. O-O Nbd7 7. Qc2 c6 8. b3 *

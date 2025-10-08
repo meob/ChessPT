@@ -1,0 +1,477 @@
+/* General Body and Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333;
+    color: #ddd;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column; /* Allow footer to stack below main content */
+    justify-content: space-between; /* Push footer to bottom */
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-layout {
+    display: flex;
+    width: 100%;
+    max-width: 1600px; /* Max width for large screens */
+    gap: 20px;
+    flex-grow: 1; /* Allow main content to take available space */
+}
+
+/* Panels */
+.left-panel, .right-panel {
+    flex: 1 1 20%; /* Flex-grow, flex-shrink, basis */
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.center-panel {
+    flex: 2 1 55%; /* Takes more space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-panel h2, .right-panel h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #f0f0f0;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Training Controls */
+.training-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#trainingSelect {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #3a3a3a;
+    color: #ddd;
+    font-size: 1em;
+    -webkit-appearance: none; /* Remove default browser styling */
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ddd%22%20d%3D%22M287%2C197.9L146.2%2C57.1L5.4%2C197.9h281.6z%22%2F%3E%3C%2Fsvg%3E'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 12px;
+}
+
+#newTrainingButton {
+    width: 100%;
+}
+
+/* Center Panel Content */
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#board {
+    width: 100%;
+    max-width: 600px; /* Limit board size */
+    margin: 0 auto; /* Center board in its container */
+}
+
+/* Right Panel Content */
+#timer {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffc107;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+.move-list {
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+    height: 400px; /* Fixed height */
+    overflow-y: auto; /* Make it scrollable */
+    flex-grow: 1; /* Allow it to fill space in the panel */
+}
+
+.move-row {
+    display: flex;
+    align-items: baseline;
+    padding: 4px 2px;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.move-number {
+    font-weight: bold;
+    color: #ccc;
+    min-width: 30px;
+}
+
+.move-item {
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.white-move {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.black-move {
+    background-color: #666;
+    color: #f0f0f0;
+}
+
+/* Left Panel Content */
+#stats {
+    font-size: 1.1em;
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 360px; /* Fixed height to reserve space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content vertically */
+}
+
+#stats p {
+    margin: 5px 0; /* Adjust paragraph margins within stats */
+}
+
+#stats span {
+    font-weight: bold;
+    float: right;
+    color: #ffc107;
+}
+
+.objective-message {
+    /* margin-top: 15px; Removed as spacing is handled by flexbox */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3a3a3a; /* Default background, matches #stats */
+    color: transparent; /* Text hidden by default */
+    min-height: 50px; /* Reserve space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.objective-message.achieved {
+    background-color: #28a745; /* Green background for success */
+    color: white; /* Visible text when achieved */
+}
+
+/* Training Selection Spacing */
+.left-panel h2:nth-of-type(2) { /* Targets the second h2, which is 'Training Selection' */
+    margin-top: 30px; /* Add more space above it */
+}
+
+/* General Components */
+.message {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 15px;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: #555;
+    min-height: 20px;
+}
+
+.message.error {
+    background-color: #d9534f;
+    color: white;
+}
+
+/* General button styling */
+.button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.3s;
+    margin-top: 15px; /* Default margin for all buttons */
+    background-color: #0275d8; /* Restored default blue color */
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/* Styles for Play As White/Black buttons */
+.play-as-btn {
+    text-decoration: none;
+    text-align: center;
+}
+
+.play-as-black {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.play-as-white {
+    background-color: #f0f0f0;
+    color: #222;
+    border: 1px solid #222;
+}
+
+
+/* Specific button colors */
+.button-restart {
+    background-color: #28a745; /* Green color */
+}
+.button-restart:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.button-show {
+    background-color: #dc3545; /* Red color */
+}
+.button-show:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.button-hint {
+    background-color: #6f42c1; /* Purple color for hint */
+}
+.button-hint:hover {
+    background-color: #5a32a3;
+}
+
+.button-delete {
+    background-color: #dc3545; /* Red color */
+}
+
+
+/* Container for game control buttons */
+.game-buttons-container {
+    display: flex;
+    gap: 10px; /* Add space between buttons */
+    width: 100%;
+    max-width: 600px; /* Match board width */
+    margin-top: 15px;
+    align-items: center; /* Vertically align buttons */
+    justify-content: space-between; /* Align buttons to ends */
+}
+
+#clearAchievementsButton {
+    background-color: #dc3545; /* Red color */
+}
+
+#clearAchievementsButton:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.game-buttons-container #resetButton {
+    margin-left: auto;  /* Push it away from the left edge */
+    margin-right: auto; /* Push the right group away */
+}
+
+.button-group-right {
+    display: flex; /* To space out Hint and Show */
+    gap: 10px;
+    /* No flex: 1; or justify-content: flex-end; needed here. */
+}
+
+.game-buttons-container #showOpeningButton {
+    /* position: absolute; */ /* No longer needed with flexbox gap */
+    /* right: 0; */
+    /* margin-top: 0; */ /* REMOVED */
+}
+
+/* General Components */
+.message {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 15px;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background-color: #555;
+    min-height: 20px;
+}
+
+.message.error {
+    background-color: #d9534f;
+    color: white;
+}
+
+.center-panel a {
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+.opening-note-display {
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #ddd;
+    font-style: italic;
+    min-height: 100px; /* Increased height for notes */
+    overflow-y: auto;
+    border: 1px solid #3a3a3a;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    max-width: 1600px;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+footer p {
+    /* Add this to center the text within the paragraph */
+    text-align: center;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none !important; /* Ensure no underline */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Language flags on help page */
+.language-selector {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.language-selector a {
+    font-size: 1.8em;
+    text-decoration: none;
+    margin: 0 5px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.language-selector a:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .main-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-panel, .right-panel, .center-panel {
+        width: 100%;
+        max-width: 700px; /* Limit width on smaller screens */
+        flex-basis: auto; /* Reset basis */
+    }
+
+    .right-panel {
+        margin-top: 20px;
+    }
+}
+
+.achievements-table {
+    width: 100%;
+    font-size: 1em; /* Reduced font size */
+    border-collapse: collapse; /* Use collapse for cleaner lines */
+}
+
+.achievements-table th, .achievements-table td {
+    padding: 8px 12px; /* Reduced padding */
+    border-bottom: 1px solid #555;
+    text-align: left;
+}
+
+.achievements-table th[data-sort] {
+    cursor: pointer;
+    color: #ddd; /* Default color for sortable headers */
+    transition: color 0.2s ease;
+}
+
+.achievements-table th[data-sort]:hover {
+    color: #fff; /* Brighter on hover */
+}
+
+.achievements-table th.sort-active {
+    color: #ffc107; /* Accent color for the active sort column */
+}
+
+.button-icon {
+    background: none;
+    border: none;
+    color: #dc3545;
+    font-size: 1.5em; /* Make icon larger */
+    cursor: pointer;
+    padding: 2px 5px; /* Smaller padding */
+    margin: 0;
+    vertical-align: middle;
+}
+
+.button-icon:hover {
+    color: #c82333;
+}
+
+/* Style for highlighting selected square in click-to-move */
+.highlight-selected {
+    background: rgba(255, 255, 0, 0.5) !important;
+}
+
+/* Styles for hint highlights */
+.highlight-hint-piece {
+    background: rgba(63, 191, 255, 0.5) !important; /* Light blue for piece */
+}
+
+.highlight-hint-square {
+    background: rgba(127, 255, 127, 0.5) !important; /* Light green for square */
+}
+
+/* Styles for language selector */
+.language-selector {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #555;
+    text-align: center;
+}
+
+.language-selector a {
+    font-size: 2em; /* Make flags bigger */
+    text-decoration: none;
+    margin: 0 10px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.language-selector a:hover {
+    opacity: 1;
+}

@@ -1,0 +1,29 @@
+[Event "Nimzo-Indian Defense: Rubinstein Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Rubinstein (4.e3) is White's most solid system. Black maintains flexibility and control."]
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 *
+
+[Event "Nimzo-Indian Defense: Classical Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "Against the Classical (4.Qc2), Black can challenge White's center immediately with 4...c5."]
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 *
+
+[Event "Nimzo-Indian Defense: Saemisch Variation (White Error)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Saemisch (4.a3) allows Black to inflict doubled pawns on White with 4...Bxc3+!"]
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3? Bxc3+! 5. bxc3 b6 *

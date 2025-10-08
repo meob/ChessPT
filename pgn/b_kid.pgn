@@ -1,0 +1,29 @@
+[Event "King's Indian Defense: Classical Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Classical Variation is the main battleground of the KID, where Black prepares a kingside attack."]
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 *
+
+[Event "King's Indian Defense: Saemisch Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "Against the Saemisch (5.f3), Black strikes back in the center to exploit White's slow development."]
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 *
+
+[Event "King's Indian Defense: Four Pawns Attack"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "Black must act quickly against the aggressive Four Pawns Attack, undermining White's large center."]
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4 O-O 6. Nf3 c5 *

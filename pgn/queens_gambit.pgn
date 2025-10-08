@@ -1,0 +1,39 @@
+[Event "Queen's Gambit Declined: Main Line"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Queen's Gambit Declined (2...e6) is a solid and classical response, leading to rich strategic positions."]
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6 8. cxd5 *
+
+[Event "Queen's Gambit Accepted: Main Line"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Queen's Gambit Accepted (2...dxc4) leads to more open positions and active piece play."]
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 c5 6. O-O a6 7. a4 *
+
+[Event "Queen's Gambit: Slav Defense"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Slav Defense (2...c6) is a very solid and popular choice, aiming for a flexible pawn structure."]
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 *
+
+[Event "Queen's Gambit: Albin Countergambit"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Albin Countergambit (2...e5?) is an aggressive but often unsound choice, giving White an early advantage."]
+1. d4 d5 2. c4 e5? 3. dxe5! d4 4. Nf3 Nc6 5. g3 Be6 6. Nbd2 *

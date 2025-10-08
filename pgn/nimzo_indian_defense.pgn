@@ -1,0 +1,29 @@
+[Event "Nimzo-Indian Defense: Rubinstein Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Rubinstein Variation (4.e3) is the most common and solid way to play against the Nimzo-Indian."]
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 c5 7. O-O Nc6 8. a3 Bxc3+ 9. bxc3 dxc4 10. Bxc4 *
+
+[Event "Nimzo-Indian Defense: Classical Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Classical Variation (4.Qc2) prevents the doubling of pawns and prepares to control the center."]
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 d5 7. Bg5 *
+
+[Event "Nimzo-Indian Defense: Leningrad Variation (Weak ...g5)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The pawn push 5...g5? is a serious positional mistake that weakens the kingside permanently."]
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5 h6 5. Bh4 g5? 6. Bg3! Ne4 7. Qc2 f5 8. e3 *

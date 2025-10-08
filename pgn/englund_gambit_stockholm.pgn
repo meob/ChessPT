@@ -1,0 +1,21 @@
+[Event "Englund Gambit Declined - Stockholm Variation"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Englund Gambit Declined, Stockholm Variation is a tricky line where Black sacrifices a pawn for rapid development and an attack."]
+
+1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 4. Bf4 Qb4+ 5. Bd2 Qxb2 6. Nc3 Nb4 7. Nd4? c5 8. Rb1 Qa3 9. Ndb5 Qa5 10. Nc7+ Kd8 11. Nxa8 Nxc2+ 12. Qxc2 *
+
+[Event "Englund Gambit Declined - Stockholm Variation (White avoids trap)"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "This variation shows how White can avoid the Englund Gambit Declined, Stockholm Variation trap by playing a more careful move."]
+
+1. d4 e5 2. dxe5 Nc6 3. Nf3 Qe7 4. Bf4 Qb4+ 5. Bd2 Qxb2 6. Nc3 Nb4 7. Rc1! *

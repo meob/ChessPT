@@ -1,0 +1,29 @@
+[Event "Slav Defense: Main Line"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The main line of the Slav Defense, where Black develops the light-squared bishop before playing ...e6."]
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. e3 e6 7. Bxc4 Bb4 8. O-O O-O 9. Qe2 Nbd7 10. e4 *
+
+[Event "Slav Defense: Exchange Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Exchange Variation often leads to symmetrical and quieter positions, but can still be tricky."]
+1. d4 d5 2. c4 c6 3. cxd5 cxd5 4. Nc3 Nf6 5. Nf3 Nc6 6. Bf4 a6 7. e3 *
+
+[Event "Slav Defense: Semi-Slav (Weak ...Bd6)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "In the Semi-Slav, the move 6...Bd6? is a positional error that allows White to seize the initiative with e4."]
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Bd3 Bd6? 7. e4! dxe4 8. Nxe4 Nxe4 9. Bxe4 O-O 10. O-O *

@@ -1,0 +1,29 @@
+[Event "Caro-Kann Defense: Classical Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Classical variation (4...Bf5) is the most solid and popular line for Black."]
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. h4 h6 7. Nf3 Nd7 *
+
+[Event "Caro-Kann Defense: Advance Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "Against the Advance variation, Black must challenge White's space advantage by attacking the pawn chain with ...c5."]
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 *
+
+[Event "Caro-Kann Defense: Panov-Botvinnik Attack (White Error)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The move 6.Bg5? is a common inaccuracy, allowing Black to seize the initiative with the surprising 6...Ne4!"]
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Bg5? Ne4! 7. Nxe4 dxe4 *

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChessPT</title>
+    <link rel="stylesheet" href="lib/chessboard-1.0.0.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <div class="main-layout">
+        <!-- Left Panel: Training Stats and Selection -->
+        <div class="left-panel">
+            <h2>Training Selection</h2>
+            <div class="training-controls">
+                <a href="black.html" class="button play-as-btn play-as-black">Play as Black</a>
+                <select id="trainingSelect"></select>
+                <button id="newTrainingButton" class="button">Start Training</button>
+            </div>
+
+            <h2>Training Stats</h2>
+            <div id="stats">
+                <p>Opening: <span id="currentOpeningName">N/A</span></p>
+                <p>Error-Free Completions: <span id="statsOpenings">0 / 5</span></p>
+                <p>Total Errors: <span id="statsErrors">0 / 0</span></p>
+                <p>Total Time: <span id="statsTotalTime">00:00:00</span></p>
+                <p>Average Time: <span id="statsAvgTime">00:00:00</span></p>
+                <p>Min. Time: <span id="statsMinTime">00:00:00</span></p>
+                <p>&nbsp;<span id="objectiveMessage" class="objective-message"></span></p>
+            </div>
+        </div>
+
+        <!-- Center Panel: Board and Controls -->
+        <div class="center-panel">
+            <h1>Chess Personal Trainer</h1>
+            <div id="board"></div>
+            <div id="message" class="message"></div>
+            <div class="game-buttons-container">
+                <button id="resetButton" class="button button-restart">Restart Game</button>
+                <div class="button-group-right">
+                    <button id="hintButton" class="button button-hint">Hint</button>
+                    <button id="showOpeningButton" class="button button-show">Show</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel: Timer and Move List -->
+        <div class="right-panel">
+            <h2>Game Info</h2>
+            <div id="timer">00:00</div>
+            <div id="moveList" class="move-list"></div>
+            <div id="openingNoteDisplay" class="opening-note-display"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            <a href="help.html">Help</a> |
+            <a href="achievements.html">Achievements</a> |
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Service</a>
+        </p>
+        <p>&copy; 2025 ChessPT. Licensed under the Apache License, Version 2.0.</p>
+    </footer>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/chessboard-1.0.0.min.js"></script>
+    <script src="lib/chess.min.js"></script>
+    <script>
+        window.playerColor = 'w';
+    </script>
+    <script src="main.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('Service Worker registered with scope:', registration.scope);
+          }).catch(err => {
+            console.error('Service Worker registration failed:', err);
+          });
+        });
+      }
+    </script>
+</body>
+</html>

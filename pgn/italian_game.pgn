@@ -1,0 +1,39 @@
+[Event "Italian Game: Giuoco Piano"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Giuoco Piano is a classical and fundamental Italian Game variation, leading to quiet, strategic play."]
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. O-O d6 7. h3 *
+
+[Event "Italian Game: Two Knights Defense"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Two Knights Defense (3...Nf6) is an aggressive and tactical response to the Italian Game."]
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Na5 6. Bb5+ c6 7. dxc6 bxc6 8. Be2 *
+
+[Event "Italian Game: Weak 3...Be7"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The move 3...Be7? is too passive and allows White to seize the center and gain an early initiative."]
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7? 4. d4! exd4 5. Nxd4 Nf6 6. Nc3 O-O 7. O-O *
+
+[Event "Italian Game: Weak 3...h6"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The move 3...h6? is a loss of tempo. White can ignore it and immediately occupy the center."]
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6? 4. d4! exd4 5. c3 dxc3 6. Nxc3 *

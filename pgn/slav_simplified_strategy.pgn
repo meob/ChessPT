@@ -1,0 +1,19 @@
+[Event "Slav Defense: Geller Gambit"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Geller Gambit (6.Ne5) is an aggressive way to meet the Slav, aiming for a quick attack."]
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Qc7 8. g3 e5 9. dxe5 Nxe5 10. Bf4 *
+
+[Event "Slav Defense: Geller Gambit (Weak ...g5)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The move 11...g5? is a risky attempt to challenge White's bishop, but it weakens the kingside."]
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. a4 Bf5 6. Ne5 Nbd7 7. Nxc4 Qc7 8. g3 e5 9. dxe5 Nxe5 10. Bf4 Nfd7 11. Bg2 g5? 12. Ne3! gxf4 13. Nxf5 *

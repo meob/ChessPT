@@ -1,0 +1,29 @@
+[Event "vs. English Opening: Symmetrical Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Symmetrical Variation (1...c5) is a solid and reliable way to meet the English Opening."]
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 *
+
+[Event "vs. English Opening: King's Indian Setup"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "Black can transpose to a King's Indian setup, creating a dynamic and familiar structure."]
+1. c4 Nf6 2. Nc3 g6 3. g3 Bg7 4. Bg2 O-O *
+
+[Event "vs. English Opening: Reverse Sicilian"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "By playing 1...e5, Black enters a 'Reversed Sicilian', where Black has an extra tempo compared to the normal Sicilian Defense."]
+1. c4 e5 2. Nc3 Nc6 3. g3 f5 *

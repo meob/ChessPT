@@ -1,0 +1,29 @@
+[Event "Sicilian Defense: Najdorf Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The Najdorf Variation is a top-tier response to 1.e4, leading to complex and dynamic positions."]
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. f3 Be7 9. Qd2 O-O 10. O-O-O Nbd7 11. g4 b5 *
+
+[Event "Sicilian Defense: Grand Prix Attack (White Error)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "The move 5.Bb5? in the Grand Prix Attack is a common mistake, allowing Black to seize the initiative with Nd4!"]
+1. e4 c5 2. Nc3 Nc6 3. f4 g6 4. Nf3 Bg7 5. Bb5? Nd4! 6. O-O Nxb5 7. Nxb5 d5 *
+
+[Event "Sicilian Defense: Smith-Morra Gambit Declined"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Trainer"]
+[Black "Player"]
+[Result "*"]
+[OpeningNote "Against the Smith-Morra Gambit, Black can decline the pawn and strike back in the center with 3...d5!"]
+1. e4 c5 2. d4 cxd4 3. c3 d5! 4. exd5 Qxd5 5. cxd4 Nc6 6. Nf3 e5 *

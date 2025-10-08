@@ -1,0 +1,73 @@
+[Event "London System: Main Line vs Solid d5/c5 Setup"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "A common and solid setup for Black. White develops logically, controls the center, and prepares for a kingside attack or central break."]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 c5 4. c3 Nc6 5. Nf3 Qb6 6. Qc2 g6 7. Nbd2 Bf5 8. dxc5 Qxc5 9. Qb3 *
+
+[Event "London System: The Nxd4 Tactical Trap"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "A common trap where Black incorrectly captures on d4, allowing White to win material with a discovered attack on the queen."]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 Bg4 4. Nf3 c5 5. Nbd2 cxd4 6. exd4 Nxd4? 7. Nxd4! Bxd1 8. Bb5+ Qd7 9. Bxd7+ Kxd7 10. Rxd1 *
+
+[Event "London System: Exploiting the Passive 2...c6"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The move 2...c6 is too passive. White can seize the initiative and gain a space advantage by immediately challenging Black's setup."]
+
+1. d4 d5 2. Bf4 c6? 3. e3 Bf5 4. c4! e6 5. Nc3 Nf6 6. Qb3 Qb6 7. c5 *
+
+[Event "London System: Punishing Premature 2...Bf5"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The move 2...Bf5?! is premature. White can punish this by immediately putting pressure on the b7 pawn with 4.Qb3!, disrupting Black's development."]
+1. d4 d5 2. Bf4 Bf5?! 3. c4 e6 4. Qb3! Nc6 5. Qxb7! Nxd4 6. Bxc7 Qc8 7. Qxc8+ Rxc8 8. Be5! *
+
+[Event "London System: Refuting the 3...e5 Break"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The pawn break 3...e5?! is a known inaccuracy. White can take the pawn and, after exchanging, achieve a superior pawn structure and development."]
+1. d4 d5 2. Bf4 Nf6 3. e3 e5?! 4. dxe5! Ne4 5. Nd2 Nxd2 6. Qxd2 *
+
+[Event "London System: Against the King's Indian Setup"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "When Black uses a King's Indian setup, White plays h3 to secure the bishop and continues with standard development, aiming for central control."]
+
+1. d4 Nf6 2. Bf4 g6 3. e3 Bg7 4. Nf3 O-O 5. Be2 d6 6. h3 Nbd7 7. O-O Re8 8. c4 *
+
+[Event "London System Training - Incorrect Black Response (Early e5)"]
+[Site "?"]
+[Date "?"]
+[Round "-"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "An early 2. ... e5? leave a central pawn to white."]
+1. d4 d5 2. Bf4 e5? 3. Bxe5! Nc6 4. Nf3 Nxe5 5. Nxe5 Nf6 6. e3 Bd6 7. Nd2 O-O 8. Bd3 Re8 9. O-O  *

@@ -1,0 +1,49 @@
+[Event "King's Indian Defense: Classical Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Classical Variation is a major battleground in the King's Indian, leading to complex strategic fights."]
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 *
+
+[Event "King's Indian Defense: Classical Variation (Weak ...exd4)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The early capture 7...exd4? releases the central tension and is generally considered favorable for White."]
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 exd4? 7. Nxd4! Re8 8. f3 *
+
+[Event "King's Indian Defense: Saemisch Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Saemisch Variation (5.f3) is an aggressive setup, aiming to blunt the ...Bg7 bishop and control the center."]
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 c5 7. Nge2 Nc6 8. d5 *
+
+[Event "King's Indian Defense: Saemisch Variation (Weak ...e5)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The move 7...e5? is a positional error, allowing White to clarify the central situation to their advantage."]
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Be3 e5? 7. d5! c6 8. Qd2 *
+
+[Event "King's Indian Defense: Four Pawns Attack"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Four Pawns Attack is a very aggressive setup, aiming to seize a massive amount of space."]
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4 O-O 6. Nf3 c5 7. d5 e6 8. Be2 *

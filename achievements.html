@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - ChessPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-layout">
+        <div class="center-panel">
+            <h1>My Achievements</h1>
+            <table id="achievementsTable" class="achievements-table">
+                <thead>
+                    <tr>
+                        <th data-sort="date">Date</th>
+                        <th data-sort="name">Opening</th>
+                        <th data-sort="time">Total Time</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Achievements will be loaded here by JavaScript -->
+                </tbody>
+            </table>
+            <div class="game-buttons-container">
+                <button id="backToTrainingBtn" class="button">Back to Training</button>
+                <button id="clearAchievementsButton" class="button">Clear All</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ChessPT. All rights reserved.</p>
+        <p>
+            <a href="help.html">Help</a> |
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Service</a>
+        </p>
+    </footer>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="achievements.js"></script>
+</body>
+</html>

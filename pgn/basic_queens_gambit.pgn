@@ -1,0 +1,10 @@
+[Event "Basic Queen's Gambit"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The initial moves of the Queen's Gambit, a very common positional opening."]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 *

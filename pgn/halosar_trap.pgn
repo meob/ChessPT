@@ -1,0 +1,10 @@
+[Event "Halosar Trap - Caro-Kann Defense"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Halosar Trap is a quick mate in the Caro-Kann Defense if Black is not careful: 8. ... Be7 is a safe move"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7 5. Bc4 Ngf6 6. Ng5 e6 7. Qe2 Nb6 8. Bd3 h6? 9. Nxf7! Kxf7 10. Bg6+ Kxg6 11. Qd3+ Kf7 12. Nf3 *

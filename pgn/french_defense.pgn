@@ -1,0 +1,59 @@
+[Event "French Defense: Advance Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The main line of the Advance Variation. White establishes a space advantage."]
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Qb6 6. a3 Nh6 7. b4 *
+
+[Event "French Defense: Advance Variation (Weak ...cxd4)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "Releasing the central tension with ...cxd4? is often a mistake, giving White a pleasant position."]
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4? 6. cxd4! Qb6 7. Nc3 *
+
+[Event "French Defense: Tarrasch Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Tarrasch (3.Nd2) is a flexible response, keeping White's options open."]
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 Qb6 8. Nf3 *
+
+[Event "French Defense: Tarrasch Variation (Weak ...cxd4)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "Similar to the Advance Variation, the early ...cxd4? exchange is favorable for White."]
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Bd3 c5 6. c3 Nc6 7. Ne2 cxd4? 8. cxd4! Qb6 9. Ngf3 *
+
+[Event "French Defense: Winawer Variation"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Winawer (3...Bb4) is a sharp and complex line, leading to unbalanced positions."]
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Qc7 8. Qxg7 *
+
+[Event "French Defense: Winawer Variation (Weak ...Nbc6)"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The natural-looking 7...Nbc6? is a serious mistake that allows White to win material."]
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Qg4 Nbc6? 8. Qxg7! Rg8 9. Qxh7 *

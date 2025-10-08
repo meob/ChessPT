@@ -1,0 +1,19 @@
+[Event "Scotch Game: Main Line"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Scotch Game is an aggressive opening that challenges Black's center immediately."]
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nxc6 bxc6 6. e5 Qe7 7. Qe2 Nd5 8. c4 *
+
+[Event "Scotch Game: Weak 4...Bc5"]
+[Site "?"]
+[Date "?"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The move 4...Bc5? looks natural but allows White to gain a tempo and a strong initiative with Be3."]
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5? 5. Be3! Qf6 6. c3 Nge7 7. Bc4 *

@@ -1,0 +1,40 @@
+[
+    {
+        "label": "vs. 1. e4 (King's Pawn)",
+        "options": [
+            { "name": "As Black: Open Game (1...e5)", "file": "pgn/b_open_game.pgn" },
+            { "name": "As Black: Sicilian Defense", "file": "pgn/b_sicilian_defense.pgn" },
+            { "name": "As Black: French Defense", "file": "pgn/b_french_defense.pgn" },
+            { "name": "As Black: Caro-Kann Defense", "file": "pgn/b_caro_kann_defense.pgn" },
+            { "name": "As Black: Scandinavian Defense", "file": "pgn/b_scandinavian_defense.pgn" }
+        ]
+    },
+    {
+        "label": "vs. 1. d4 (Queen's Pawn)",
+        "options": [
+            { "name": "As Black: Queen's Gambit Declined", "file": "pgn/b_qgd.pgn" },
+            { "name": "As Black: King's Indian Defense", "file": "pgn/b_kid.pgn" },
+            { "name": "As Black: Nimzo-Indian Defense", "file": "pgn/b_nimzo_indian.pgn" },
+            { "name": "As Black: Slav Defense", "file": "pgn/b_slav_defense.pgn" },
+            { "name": "As Black: vs. London System", "file": "pgn/b_london_system.pgn" }
+        ]
+    },
+    {
+        "label": "vs. Flank Openings",
+        "options": [
+            { "name": "As Black: vs. English Opening", "file": "pgn/b_english_opening.pgn" },
+            { "name": "As Black: vs. Réti Opening", "file": "pgn/b_reti_opening.pgn" }
+        ]
+    },
+    {
+        "label": "Traps for Black",
+        "options": [
+            { "name": "Fool's Mate", "file": "pgn/fools_mate.pgn" },
+            { "name": "Budapest Trap", "file": "pgn/budapest_trap.pgn" },
+            { "name": "Elephant Trap", "file": "pgn/elephant_trap.pgn" },
+            { "name": "Blackburne Shilling Gambit", "file": "pgn/blackburne_shilling_gambit.pgn" },
+            { "name": "Fishing Pole Trap", "file": "pgn/fishing_pole_trap.pgn" },
+            { "name": "Englund Gambit Stockholm", "file": "pgn/englund_gambit_stockholm.pgn" }
+        ]
+    }
+]

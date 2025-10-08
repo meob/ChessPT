@@ -1,0 +1,43 @@
+[
+    {
+        "label": "Basic Openings (few moves only)",
+        "options": [
+            { "name": "Italian Game", "file": "pgn/basic_italian_game.pgn" },
+            { "name": "Ruy Lopez", "file": "pgn/basic_ruy_lopez.pgn" },
+            { "name": "Sicilian Defense", "file": "pgn/basic_sicilian_defense.pgn" },
+            { "name": "French Defense", "file": "pgn/basic_french_defense.pgn" },
+            { "name": "Queen's Gambit", "file": "pgn/basic_queens_gambit.pgn" }
+        ]
+    },
+    {
+        "label": "1. e4 Openings (King's Pawn)",
+        "options": [
+            { "name": "Italian Game", "file": "pgn/italian_game.pgn" },
+            { "name": "Ruy Lopez", "file": "pgn/ruy_lopez.pgn" },
+            { "name": "Scotch Game", "file": "pgn/scotch_game.pgn" },
+            { "name": "vs. Sicilian Defense", "file": "pgn/sicilian_defense.pgn" },
+            { "name": "vs. French Defense", "file": "pgn/french_defense.pgn" },
+            { "name": "vs. Caro-Kann Defense", "file": "pgn/caro_kann_defense.pgn" },
+            { "name": "vs. Scandinavian Defense", "file": "pgn/scandinavian_defense.pgn" }
+        ]
+    },
+    {
+        "label": "1. d4 Openings (Queen's Pawn)",
+        "options": [
+            { "name": "Queen's Gambit", "file": "pgn/queens_gambit.pgn" },
+            { "name": "Catalan Opening", "file": "pgn/catalan_opening.pgn" },
+            { "name": "London System", "file": "pgn/london_system.pgn" },
+            { "name": "vs. King's Indian Defense", "file": "pgn/kings_indian_defense.pgn" },
+            { "name": "vs. Slav Defense", "file": "pgn/slav_defense.pgn" },
+            { "name": "vs. Nimzo-Indian Defense", "file": "pgn/nimzo_indian_defense.pgn" }
+        ]
+    },
+    {
+        "label": "Gambits & Traps",
+        "options": [
+            { "name": "Scholar's Mate", "file": "pgn/scholars_mate.pgn" },
+            { "name": "Legal's Mate", "file": "pgn/legals_mate.pgn" },
+            { "name": "Halosar Trap", "file": "pgn/halosar_trap.pgn" }
+        ]
+    }
+]

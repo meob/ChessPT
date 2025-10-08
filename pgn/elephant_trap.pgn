@@ -1,0 +1,21 @@
+[Event "Queen's Gambit Declined - Elephant Trap"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "The Elephant Trap is a well-known trick in the Queen's Gambit Declined where Black tries to win a pawn."]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. Nd2 Bb4 8. Qc2 dxc4? 9. Bxf6! Nxf6 10. Nxc4 *
+
+[Event "Queen's Gambit Declined - Elephant Trap (Black avoids trap)"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Player"]
+[Black "Trainer"]
+[Result "*"]
+[OpeningNote "This variation shows how Black can avoid the Elephant Trap by playing a more solid move."]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5 7. Nd2 Bb4 8. Qc2 O-O *
