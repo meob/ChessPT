@@ -1,0 +1,5 @@
+[Event "Defending the Halloween Gambit"]
+[OpeningNote "This is the main and best way to defend against the Halloween Gambit. Black accepts the sacrifice and safely repositions the knight."]
+[TargetCompletions "3"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5 Nxe5 5. d4 Ng6 6. e5 Ng8

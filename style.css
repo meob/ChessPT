@@ -475,3 +475,12 @@ footer a:hover {
 .language-selector a:hover {
     opacity: 1;
 }
+
+/* Style for the main Start Training button */
+#newTrainingButton {
+    background-color: #28a745; /* Green color */
+}
+
+#newTrainingButton:hover {
+    background-color: #218838; /* Darker green on hover */
+}

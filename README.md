@@ -21,18 +21,24 @@ This automation allows you to execute your opening quickly and flawlessly, savin
 -   **Performance Statistics:** Track error-free completions, total errors, and time spent.
 -   **Achievement System:** Complete an opening's training objective to save your achievement locally.
 -   **Privacy-Focused:** All data is stored in your browser. Nothing is ever collected or transmitted.
+-   **Play Custom PGN:** Load your own `.pgn` files for a personalized training session.
 
 ## Getting Started
 
 ### Prerequisites
 
-You need a local web server to run ChessPT. Due to browser security policies (CORS), you cannot simply open the `index.html` file from your filesystem.
+ChessPT is a static web application that can be run in two ways:
+
+*   **Locally:** By using a simple local web server on your computer.
+*   **On the Web:** By publishing the files to any standard web hosting service or server.
+
+Due to browser security policies (CORS), you cannot run the application by simply opening the `index.html` file directly in your browser; it must be served via HTTP.
 
 ### Installation & Launch
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ChessPT.git
+    git clone https://github.com/meob/ChessPT.git
     cd ChessPT
     ```
 
@@ -56,7 +62,7 @@ You need a local web server to run ChessPT. Due to browser security policies (CO
 
 You can easily add your own openings:
 
-1.  Add your opening to a `.pgn` file in the `/pgn` directory. You can add custom headers like `[OpeningNote "Custom note here"]` and `[TargetCompletions "3"]`.
+1.  Add your opening to a `.pgn` file in the `/pgn` directory. The `/pgn` directory already contains several intresting opening... at least I hope so! You can add custom headers like `[OpeningNote "Custom note here"]` and `[TargetCompletions "3"]`.
 2.  Add a reference to your PGN file in `trainings.json` (for White) or `trainings_black.json` (for Black).
 
     **Example for `trainings.json`:**

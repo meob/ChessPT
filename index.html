@@ -10,6 +10,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ChessPT">
 </head>
 <body>
     <div class="main-layout">
@@ -19,6 +22,8 @@
             <div class="training-controls">
                 <a href="black.html" class="button play-as-btn play-as-black">Play as Black</a>
                 <select id="trainingSelect"></select>
+                <button id="importPgnButton" class="button">Load PGN...</button>
+                <input type="file" id="pgnFileInput" accept=".pgn" style="display: none;" />
                 <button id="newTrainingButton" class="button">Start Training</button>
             </div>
 

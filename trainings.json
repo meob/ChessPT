@@ -37,7 +37,8 @@
         "options": [
             { "name": "Scholar's Mate", "file": "pgn/scholars_mate.pgn" },
             { "name": "Legal's Mate", "file": "pgn/legals_mate.pgn" },
-            { "name": "Halosar Trap", "file": "pgn/halosar_trap.pgn" }
+            { "name": "Halosar Trap", "file": "pgn/halosar_trap.pgn" },
+            { "name": "🎃 Halloween Gambit", "file": "pgn/halloween_gambit.pgn" }
         ]
     }
 ]

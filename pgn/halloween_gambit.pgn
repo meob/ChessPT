@@ -1,0 +1,11 @@
+[Event "Halloween Gambit"]
+[OpeningNote "Main line. White sacrifices a knight to build a massive pawn center and attack."]
+[TargetCompletions "3"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5 Nxe5 5. d4 Ng6 6. e5 Ng8 7. Bc4!
+
+[Event "Halloween Gambit - Black's Mistake"]
+[OpeningNote "Black makes the common mistake 4...Nxe4? instead of Nxe5. White can punish this immediately."]
+[TargetCompletions "2"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Nxe5 Nxe4? 5. Qh5!

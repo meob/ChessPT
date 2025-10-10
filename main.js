@@ -166,10 +166,10 @@ $(document).ready(function() {
         $statsMinTime.text(formatTime(minTime));
 
         if (currentOpeningErrorFreeCompletions >= currentOpeningTargetCompletions) {
-            $objectiveMessage.text(`Objective achieved for ${$('#trainingSelect option:selected').text()}!`).addClass('achieved');
+            $objectiveMessage.text(`Objective achieved for ${$currentOpeningName.text()}!`).addClass('achieved');
             const achievement = {
                 date: new Date().toISOString(),
-                name: $('#trainingSelect option:selected').text(),
+                name: $currentOpeningName.text(),
                 time: formatTime(totalTime)
             };
             const achievements = JSON.parse(localStorage.getItem('chessPTAchievements') || '[]');
@@ -385,7 +385,10 @@ $(document).ready(function() {
 
         updateStats();
         updateMoveList();
-        $currentOpeningName.text($('#trainingSelect option:selected').text());
+        const selectedOpeningText = $('#trainingSelect option:selected').text();
+        if (selectedOpeningText) {
+            $currentOpeningName.text(selectedOpeningText);
+        }
         $openingNoteDisplay.empty();
 
         if (playerColor === 'w') {
@@ -521,5 +524,43 @@ $(document).ready(function() {
                 $hintButton.trigger('click'); // Re-trigger the hint logic for the new state
             }
         }
+    });
+
+    // --- PGN Import Logic ---
+    const $importPgnButton = $('#importPgnButton');
+    const $pgnFileInput = $('#pgnFileInput');
+
+    $importPgnButton.on('click', function() {
+        $pgnFileInput.click();
+    });
+
+    $pgnFileInput.on('change', function(event) {
+        const file = event.target.files[0];
+        if (!file) {
+            return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const pgnContent = e.target.result;
+            if (pgnContent) {
+                allOpeningLines = parsePgnLines(pgnContent);
+                if (allOpeningLines.length > 0 && allOpeningLines[0].length > 0 && allOpeningLines[0][0].targetCompletions) {
+                    currentOpeningTargetCompletions = allOpeningLines[0][0].targetCompletions;
+                } else {
+                    currentOpeningTargetCompletions = 5;
+                }
+                resetAllStats();
+                resetCurrentGame(); // This will reset the game logic
+                
+                // After resetCurrentGame, override the opening name and deselect dropdown
+                $currentOpeningName.text(file.name.replace('.pgn', ''));
+                $('#trainingSelect').prop('selectedIndex', -1);
+            }
+        };
+        reader.readAsText(file);
+
+        // Reset the file input value to allow re-selecting the same file
+        $(this).val('');
     });
 });
